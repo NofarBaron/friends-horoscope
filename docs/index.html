@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>המזלות של החבר׳ה</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=Assistant:wght@400;600&display=swap">
+<style>
+  /* Layout: a single column of sign cards, like pages torn from an almanac */
+  :root {
+    --bg: #eef0f6;
+    --surface: #ffffff;
+    --ink: #1d1f3a;
+    --muted: #5d607d;
+    --line: #d7d9e6;
+    --brass: #9a6a1f;
+    --chip: #f3ead9;
+    --font-display: "Frank Ruhl Libre", "David", "Times New Roman", serif;
+    --font-body: "Assistant", "Arial Hebrew", "Segoe UI", Arial, sans-serif;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14162b; --surface: #1d2040; --ink: #ecebf5; --muted: #a3a5c2;
+      --line: #2f3360; --brass: #d9a95a; --chip: #2e2a3a; color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 400 17px/1.7 var(--font-body);
+    padding-block: max(32px, env(safe-area-inset-top, 0px)) max(48px, env(safe-area-inset-bottom, 0px));
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  main { max-width: 640px; margin: 0 auto; display: grid; gap: 28px; }
+  header { display: grid; gap: 4px; }
+  .eyebrow { color: var(--brass); font-weight: 600; letter-spacing: .04em; font-size: 15px; }
+  h1 { font: 700 clamp(30px, 7vw, 44px)/1.15 var(--font-display); margin: 0; text-wrap: balance; }
+  .cards { display: grid; gap: 18px; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 22px 22px 18px;
+    display: grid;
+    gap: 12px;
+  }
+  .card-head { display: flex; align-items: center; gap: 14px; }
+  .glyph {
+    font: 500 40px/1 var(--font-display);
+    color: var(--brass);
+    width: 52px; height: 52px;
+    display: grid; place-items: center;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    flex: none;
+  }
+  .sign { font: 700 26px/1.1 var(--font-display); margin: 0; }
+  .range { color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; direction: ltr; unicode-bidi: isolate; }
+  .friends { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+  .friends li { background: var(--chip); border-radius: 999px; padding: 2px 12px; font-weight: 600; font-size: 15px; }
+  .text { margin: 0; min-width: 0; }
+  details { color: var(--muted); font-size: 15px; }
+  summary { cursor: pointer; width: fit-content; }
+  summary:focus-visible { outline: 2px solid var(--brass); outline-offset: 2px; }
+  details p { direction: ltr; text-align: left; margin: 8px 0 0; }
+  footer { color: var(--muted); font-size: 13px; line-height: 1.6; }
+  footer a { color: inherit; }
+  .empty { border-style: dashed; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="eyebrow" id="date">החיזוי היומי</div>
+    <h1>המזלות של החבר׳ה</h1>
+  </header>
+  <section class="cards" id="cards" aria-live="polite">
+    <div class="card empty">טוען את החיזוי של היום…</div>
+  </section>
+  <footer id="footer">
+    מקור: <a href="https://freehoroscopeapi.com" rel="noopener">Free Horoscope API</a>.
+    תרגום אוטומטי במודל קוד פתוח, ולכן הניסוח לא תמיד מושלם.
+  </footer>
+</main>
+<script>
+  const el = (tag, cls, text) => {
+    const n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  };
+
+  function formatDate(iso) {
+    const d = new Date(iso + "T12:00:00");
+    return d.toLocaleDateString("he-IL", { weekday: "long", day: "numeric", month: "long" });
+  }
+
+  function render(data) {
+    const box = document.getElementById("cards");
+    box.replaceChildren();
+    document.getElementById("date").textContent = "החיזוי ל" + formatDate(data.date);
+    for (const c of data.cards) {
+      const card = el("article", "card");
+      const head = el("div", "card-head");
+      head.append(el("div", "glyph", c.symbol));
+      const titles = el("div");
+      titles.append(el("h2", "sign", c.sign_he), el("div", "range", c.range));
+      head.append(titles);
+      const list = el("ul", "friends");
+      c.friends.forEach(f => list.append(el("li", null, f)));
+      const det = el("details");
+      det.append(el("summary", null, "המקור באנגלית"), el("p", null, c.text_en));
+      card.append(head, list, el("p", "text", c.text_he), det);
+      box.append(card);
+    }
+  }
+
+  fetch("data.json", { cache: "no-store" })
+    .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(render)
+    .catch(() => {
+      document.getElementById("cards").replaceChildren(
+        el("div", "card empty", "עוד אין חיזוי. הוא יופיע אחרי הריצה הראשונה של העדכון היומי ב-GitHub Actions.")
+      );
+    });
+</script>
+</body>
+</html>
