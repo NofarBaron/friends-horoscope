@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T08:46+00:00",
+  "model": "Helsinki-NLP/opus-mt-en-he",
+  "cards": [
+    {
+      "sign": "aquarius",
+      "sign_he": "דלי",
+      "symbol": "♒",
+      "range": "20.1–18.2",
+      "friends": [
+        "Hagar"
+      ],
+      "text_en": "Things may be moving a bit slowly for you right now, but that's okay. You're in a period where it's a good idea to take your time and think things through before making any big decisions. Your usual independence is still there, but you might be feeling a stronger need for stability and security. This is a good time to focus on building a strong foundation for your future plans. You'll get back to your usual pace soon enough.",
+      "text_he": "דברים אולי זזים קצת לאט בשבילך עכשיו, אבל זה בסדר. אתה נמצא בתקופה שבה זה רעיון טוב לקחת את הזמן שלך ולחשוב דברים דרך לפני קבלת החלטות גדולות. העצמאות הרגילה שלך עדיין שם, אבל ייתכן שאתה מרגיש צורך חזק יותר ליציבות וביטחון. זה זמן טוב להתמקד בבניית בסיס חזק לתוכניות העתידיות שלך. אתה תחזור לקצב הרגיל שלך בקרוב."
+    },
+    {
+      "sign": "gemini",
+      "sign_he": "תאומים",
+      "symbol": "♊",
+      "range": "21.5–20.6",
+      "friends": [
+        "Tal"
+      ],
+      "text_en": "Things are likely to be pretty busy for Geminis today, with a lot of different tasks and projects competing for attention. It's a good idea to prioritize and focus on the most important ones first, to avoid feeling overwhelmed. Communication with others may be a key part of getting things done, so be prepared to explain your ideas and listen to feedback. With a bit of effort and organization, it should be possible to make some real progress and achieve some goals. Overall, it's shaping up to be a productive day.",
+      "text_he": "דברים עלולים להיות די עסוקים עבור מזל תאומים היום, עם הרבה משימות ופרוייקטים שונים מתחרים על תשומת לב. זה רעיון טוב לתעדף ולהתמקד בראשונים, כדי להימנע מלהרגיש המום. תקשורת עם אחרים עשויה להיות חלק מרכזי בעשיית דברים, לכן הייה מוכן להסביר את רעיונותיך ולהקשיב למשוב. עם קצת מאמץ וארגון, זה צריך להיות אפשרי לעשות קצת התקדמות אמיתית ולהשיג כמה מטרות. בסך הכל, זה הופך להיות יום פורה."
+    },
+    {
+      "sign": "cancer",
+      "sign_he": "סרטן",
+      "symbol": "♋",
+      "range": "21.6–22.7",
+      "friends": [
+        "Gaya"
+      ],
+      "text_en": "Cancer, today you might find yourself thinking about your long-term goals and how to make progress on them. You've been putting in a lot of effort lately, and it's time to take a step back and assess what's working and what's not. This reflection can help you make some necessary adjustments and get back on track. You may also be feeling a strong connection to your family and home life, and spending time with loved ones could be just what you need to feel grounded. Overall, it's a good day to focus on what's truly important to you.",
+      "text_he": "סרטן, היום אתה עלול למצוא את עצמך חושב על המטרות לטווח הארוך שלך ואיך להתקדם עליהם. השקעת הרבה מאמץ לאחרונה, והגיע הזמן לקחת צעד אחורה ולהעריך מה עובד ומה לא. השתקפות זו יכולה לעזור לך לבצע כמה התאמות הכרחיות ולחזור למסלול. ייתכן שאתה גם מרגיש קשר חזק למשפחתך ולחייך בבית, ובילוי עם יקיריך עשוי להיות בדיוק מה שאתה צריך כדי להרגיש מקורקע. בסך הכל, זה יום טוב להתמקד במה שבאמת חשוב לך."
+    },
+    {
+      "sign": "virgo",
+      "sign_he": "בתולה",
+      "symbol": "♍",
+      "range": "23.8–22.9",
+      "friends": [
+        "Rotem"
+      ],
+      "text_en": "Today may bring some challenges at work or with daily routines, but staying focused and organized can help you get through them. You might need to adjust your plans or approach to fit changing circumstances. It's a good idea to double-check details and make sure you have all the information you need before making decisions. Taking care of small tasks and responsibilities now can also help prevent bigger problems later. By being practical and thorough, you can make steady progress and achieve your goals.",
+      "text_he": "כיום ניתן להביא כמה קשיים בעבודה או בשגרה יומיומית, אך להישאר ממוקדים ומאורגנים יכול לעזור לך לעבור אותם. ייתכן שתצטרך לשנות את תוכניותיך או לגשת לנסיבות משתנות. זה רעיון טוב לבדוק שוב פרטים ולוודא שיש לך את כל המידע שאתה צריך לפני שאתה מקבל החלטות. טיפול במשימות קטנות ובאחריות עתה יכול גם למנוע בעיות גדולות יותר מאוחר יותר. אם תהיה מעשי ויסודי, תוכל להתקדם באופן קבוע ולהשיג את מטרותיך."
+    }
+  ]
+}
