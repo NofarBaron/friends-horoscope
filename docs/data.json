@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-20",
-  "generated_at": "2026-10-20T08:55+00:00",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T08:55+00:00",
   "model": "Helsinki-NLP/opus-mt-en-he",
   "cards": [
     {
@@ -11,8 +11,8 @@
       "friends": [
         "Hagar"
       ],
-      "text_en": "For Aquarius, today is a good day to focus on your work and daily routines. You may find that you're able to get a lot done, especially if you're working on a project that requires attention to detail. It's also a good time to think about your long-term goals and how you can make progress towards them. You might need to make some adjustments to your plans, but that's okay - it's all part of the process. Overall, it's a productive day with opportunities to make headway on your priorities.",
-      "text_he": "עבור אקווריוס, היום הוא יום טוב להתמקד בעבודה ובשגרה היומית שלך. אתה עלול לגלות שאתה מסוגל לעשות הרבה, במיוחד אם אתה עובד על פרויקט שדורש תשומת לב לפרטים. זה גם זמן טוב לחשוב על המטרות לטווח הארוך שלך ואיך אתה יכול להתקדם לקראתם. אולי אתה צריך לעשות כמה שינויים בתוכניות שלך, אבל זה בסדר - זה הכל חלק מהתהליך. בסך הכל, זה יום פורה עם הזדמנויות להתקדם בסדר העדיפויות שלך."
+      "text_en": "For Aquarius, today is a good day to focus on the tasks at hand and try to get as much done as possible. You may find that you're able to concentrate and work more efficiently than usual. It's also a good time to think about your long-term goals and make some plans for how you want to achieve them. You might need to make some adjustments to your daily routine in order to make time for the things that are important to you. Overall, it's a practical and productive day.",
+      "text_he": "עבור אקווריוס, היום הוא יום טוב להתמקד במשימות שלפנינו ולנסות לסיים כמה שיותר. אולי תגלה שאתה מסוגל להתרכז ולעבוד ביעילות רבה יותר מהרגיל. זה גם זמן טוב לחשוב על המטרות לטווח הארוך שלך ולעשות כמה תוכניות איך אתה רוצה להשיג אותם. ייתכן שתצטרך לערוך כמה שינויים בשגרה היומיומית שלך כדי לפנות זמן לדברים החשובים לך. בסך הכל, זהו יום מעשי ופורה."
     },
     {
       "sign": "gemini",
@@ -22,8 +22,8 @@
       "friends": [
         "Tal"
       ],
-      "text_en": "For Geminis, today is a good day to focus on communication and expression. You may find yourself in a lot of conversations, and it's a good idea to listen carefully to what others are saying. Your thoughts and ideas are likely to be clear and well-received, so don't be afraid to share them. You might also learn something new or interesting from someone else, so stay open to different perspectives. Overall, it should be a pretty engaging and stimulating day.",
-      "text_he": "עבור מזל תאומים, היום הוא יום טוב להתמקד בתקשורת ובביטוי. אתה עלול למצוא את עצמך בהרבה שיחות, וזה רעיון טוב להקשיב היטב למה שאחרים אומרים. המחשבות והרעיונות שלך עשויים להיות ברורים ומתקבלים היטב, אז אל תפחדו לחלוק אותם. אתה יכול גם ללמוד משהו חדש או מעניין ממישהו אחר, כך להישאר פתוח לנקודות מבט שונות. בסך הכל, זה צריך להיות יום מרתק ומגרה."
+      "text_en": "For Geminis, today is a good day to focus on the details of a project or task that needs attention. You may have been putting it off, but now is the time to dive in and get it done. Your mind is sharp and you're able to think clearly, which will help you make progress and find solutions to any problems that come up. It's also a good idea to take some time to review and organize your thoughts and ideas, as this will help you stay on track and avoid confusion. By staying focused and working steadily, you can accomplish a lot and feel a sense of satisfaction at the end of the day.",
+      "text_he": "עבור מזל תאומים, היום הוא יום טוב להתמקד בפרטים של פרויקט או משימה שזקוקים לתשומת לב. אולי דחית את זה, אבל עכשיו זה הזמן לצלול ולבצע את זה. המוח שלך חד ואתה מסוגל לחשוב בבהירות, מה שיעזור לך להתקדם ולמצוא פתרונות לכל בעיה שעולה. זה גם רעיון טוב לקחת קצת זמן כדי לבחון ולארגן את המחשבות והרעיונות שלך, כפי שזה יעזור לך להישאר על המסלול ולהימנע מבלבול. אם תישאר ממוקד ועובד בהתמדה, תוכל להשיג רבות ולהרגיש סיפוק בסופו של יום."
     },
     {
       "sign": "cancer",
@@ -33,8 +33,8 @@
       "friends": [
         "Gaya"
       ],
-      "text_en": "Cancer, today you may be feeling a strong connection to your home and family, and you might be thinking about ways to make your living space more comfortable and welcoming. You could be in the mood to cook a favorite meal or work on a project that's been waiting for your attention. It's a good day to focus on the things that bring you a sense of security and stability. You may also be more intuitive than usual, so trust your instincts and listen to your inner voice. Overall, it's a quiet and reflective day that's perfect for taking care of yourself and your loved ones.",
-      "text_he": "סרטן, היום אתה אולי מרגיש חיבור חזק לבית ולמשפחה שלך, ואולי אתה חושב על דרכים להפוך את מרחב המחיה שלך למקום נוח יותר וברוכים הבאים. אתה יכול להיות במצב רוח לבשל ארוחה אהובה או לעבוד על פרויקט כי הוא כבר מחכה לתשומת הלב שלך. זה יום טוב להתמקד בדברים שמביאים לך תחושת ביטחון ויציבות. אתה גם יכול להיות יותר אינטואיטיבי מהרגיל, כך לסמוך על האינסטינקטים שלך ולהקשיב לקול הפנימי שלך. בסך הכל, זה יום שקט ומשקפיים זה מושלם לטיפול בעצמך וביקיריך."
+      "text_en": "Cancer, today is a good day to focus on your home and family life. You may be thinking about making some changes to your living space or spending quality time with loved ones. It's also a good time to take care of any tasks or chores you've been putting off, as getting them done will help you feel more relaxed and in control. Your emotional side is strong right now, so be sure to listen to your intuition and trust your feelings. By taking care of yourself and your surroundings, you'll be able to approach the rest of your day with a clearer mind.",
+      "text_he": "סרטן, היום הוא יום טוב להתמקד בחיי הבית והמשפחה שלך. אולי אתה חושב לערוך שינויים במרחב המגורים שלך או לבלות זמן איכות עם יקיריך. זה גם זמן טוב לטפל בכל מטלות או מטלות שאתה דוחה, כמו מקבל אותם נעשה יעזור לך להרגיש רגוע יותר ובשליטה. הצד הרגשי שלך חזק עכשיו, אז אל תשכח להקשיב לאינטואיציה שלך ולסמוך על הרגשות שלך. על ידי שמירה על עצמך ועל הסביבה שלך, תוכל להתקרב שאר היום שלך עם מוח צלול יותר."
     },
     {
       "sign": "virgo",
@@ -44,8 +44,8 @@
       "friends": [
         "Rotem"
       ],
-      "text_en": "Things are likely to be pretty busy for Virgos today, with a lot of tasks and responsibilities competing for attention. It's a good idea to prioritize and focus on the most important things first, to avoid feeling overwhelmed. Some Virgos may need to deal with a difficult conversation or a tricky situation, but approaching it in a calm and rational way can help to resolve the issue. Taking a break to clear your head and recharge can also be helpful. By staying organized and focused, Virgos can get through the day and make some real progress.",
-      "text_he": "דברים עלולים להיות די עסוקים עבור מזל בתולה היום, עם הרבה משימות ואחריות מתחרה על תשומת לב. זה רעיון טוב לתעדף ולהתמקד בדברים החשובים ביותר קודם, כדי להימנע מלהרגיש המום. יש מזל בתולה שצריכים להתמודד עם שיחה קשה או עם מצב מסובך, אך גישה אליה בדרך רגועה ורציונלית עשויה לעזור לנו לפתור את הבעיה. לקחת הפסקה כדי לנקות את הראש ולהטעין מחדש יכול גם להיות מועיל. על ידי להישאר מאורגן וממוקד, מזל בתולה יכול לעבור את היום ולעשות התקדמות אמיתית."
+      "text_en": "For Virgo, today is a good day to focus on the details of a project that's been on your mind. You're likely to be in a practical and hardworking mood, which will help you make progress and get things done. It's also a good time to take care of any routine tasks or chores that you've been putting off. By staying organized and on top of things, you'll be able to feel more in control and prepared for what's ahead. Your attention to detail will serve you well in all that you do today.",
+      "text_he": "עבור מזל בתולה, היום הוא יום טוב להתמקד בפרטים של פרויקט שהיה בראש שלך. סביר להניח שתהיה במצב רוח מעשי וחרוץ, מה שיעזור לך להתקדם ולעשות דברים. זה גם זמן טוב לטפל בכל מטלות או מטלות שגרתיות שאתה דוחה. על ידי להישאר מאורגן ועל גבי דברים, תוכל להרגיש יותר בשליטה ומוכן למה הוא קדימה. תשומת הלב שלך לפרטים תשרת אותך היטב בכל מה שאתה עושה היום."
     }
   ]
 }
