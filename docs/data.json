@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "generated_at": "2026-10-25T08:45+00:00",
+  "generated_at": "2026-10-25T13:35+00:00",
   "model": "Helsinki-NLP/opus-mt-en-he",
   "cards": [
     {
@@ -13,6 +13,18 @@
       ],
       "text_en": "For Aquarius, today is a good day to focus on the things that bring a sense of comfort and stability. It's a time to take care of everyday tasks and responsibilities, and to make sure everything is in order. This can help clear your mind and make it easier to think about bigger plans and goals. You may also find that you're more aware of the people and things that are important to you, and that you're feeling a stronger sense of connection to them. By taking care of the basics, you can create a solid foundation for the days ahead.",
       "text_he": "עבור אקווריוס, היום הוא יום טוב להתמקד בדברים שמביאים תחושה של נוחות ויציבות. זה זמן לטפל במשימות יומיומיות ואחריות, וכדי לוודא שהכל בסדר. הדבר יכול לעזור לך לנקות את שכלך ולהקל עליך לחשוב על תוכניות ומטרות גדולות יותר. אולי גם תגלה שאתה מודע יותר לאנשים ולדברים שחשובים לך, ושאתה מרגיש תחושה חזקה יותר של חיבור אליהם. על ידי טיפול של היסודות, אתה יכול ליצור בסיס מוצק לימים הבאים."
+    },
+    {
+      "sign": "taurus",
+      "sign_he": "שור",
+      "symbol": "♉",
+      "range": "20.4–20.5",
+      "friends": [
+        "Nofar",
+        "Topaz"
+      ],
+      "text_en": "Today may bring some unexpected changes or surprises, which could be unsettling for someone who values stability like Taurus. It's a good idea to stay flexible and adapt to the situation as it unfolds. You might need to adjust your plans or approach to accommodate new information or circumstances. This could be a challenging day, but it's also an opportunity to learn and grow. By being open to new experiences, you can make the most of the situation and come out stronger on the other side.",
+      "text_he": "היום עשוי להביא כמה שינויים בלתי צפויים או הפתעות, אשר יכול להיות מטריד עבור מישהו שמעריך יציבות כמו מזל שור. זה רעיון טוב להישאר גמיש ולהסתגל למצב כפי שהוא מתפתח. ייתכן שתצטרך להתאים את תוכניותיך או לגשת אליהם כדי להשיג מידע חדש או נסיבות חדשות. זה יכול להיות יום מאתגר, אבל זו גם הזדמנות ללמוד ולגדול. אם תהיה פתוח לחוויות חדשות, תוכל להפיק את המירב מהמצב ולצאת חזק יותר בצד השני."
     },
     {
       "sign": "gemini",
